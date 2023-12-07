@@ -1,0 +1,177 @@
+html header {
+   background-image: url(../recursos/HEADER.PNG);
+   background-size:cover;
+   height: 550px;      
+   width: 2010px;
+}
+
+footer{
+    display: flex;
+    justify-content:space-between;
+    font-size: 40px;
+    margin: 60px  250px
+}
+
+header nav  {
+    display: flex;
+    font-size: 30px;
+    color: rgb(202, 117, 117);
+    justify-content:space-evenly;
+    margin-left: 400px; 
+    margin-top: -400px;   
+}
+
+.divCuadrado {
+    width: 1600px;
+    height: 450px;    
+}
+
+.divLogo {
+    position: relative;
+    top: 150px;
+    left: 50px;
+    
+}
+
+.fondoRojo {
+    background-color: rgb(105, 9, 9);
+}
+
+.fondoGris {
+    background-color: grey;
+}
+
+.fondoVerde {
+    background-color: rgb(12, 31, 12);
+}
+
+.modeloCaja {
+    margin:auto;
+    padding: 30px 50px;
+    justify-content: flex-end;
+    display: flex;    
+}
+
+.letraBlanca {
+    color: white;
+}
+
+body {
+    width: 1440px;
+    height: 2500px;
+}
+
+.divFondoNegro {
+    background-color: black;
+    width: 2010px;
+    height: 2550px;    
+}
+
+header {
+    width: 1840px;    
+}
+
+body i {
+    bottom: 50px;
+    right: 50px;
+    font-size: 50px;
+}
+
+.divInline {
+    display: inline;
+}
+
+.divDescarga {
+   display: flex;
+   justify-content:center;   
+   margin-top: 20px;
+}
+
+.divImage {
+    display: flex;
+    justify-content: end;
+    margin-right: 210px;
+    margin-bottom: 50px;
+    margin-top: -20px;
+  
+}
+
+body section p {
+    font-size: 25px;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 800px;   
+    color: white; 
+    position: absolute;
+}
+
+footer p{
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+
+body section h2 {
+    padding-top: 200px;
+    padding-left: 200px;
+    color: white;
+}
+
+.imagenMaps {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 20px;
+    
+    
+}
+
+.iconoWapp {
+    position:fixed;
+    color: green;
+    font-size: 60px;
+    margin-bottom: 90px;
+}
+.iconoUp {
+    position: fixed;
+    color:blueviolet
+    
+}
+.imagen1{     
+    margin-left: 210px;
+}
+.divAlto{
+    width: 1000px;
+}
+body section3 {
+    background-image: url(../recursos/maps.JPG);
+    background-size: 100vw 100vh;
+}
+form {
+    justify-content: end;
+    width: 750px;
+    margin: auto;
+    background: rgba(165, 28, 28, 0.4);
+    padding: 100px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-right: 200px;
+    border-radius: 20px;
+    
+    
+}
+body form h2{
+    color: white;
+    text-align:justify;
+    margin: 0px;
+    font-size: 40px;
+    font-family: monospace;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+.container {
+    width: 2000px;
+}
